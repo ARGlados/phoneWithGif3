@@ -13,22 +13,43 @@ html, body {
 #gif{
   position:fixed;
   z-index:1;
+  
   left:50%;
   top:50%;
   transform: translate(-50%,-71.8%);
 }
 #iphone{
   position: fixed;
+
   left:50%;
   top: 50%;
   transform: translate(-50%,-50%);
 }
+
+.example-shadow-3 {
+    background: #19181d;
+    text-align: center;
+}
+  .sp {
+    background: #19181d;
+    display: inline-block;
+    width: 96vw;
+    height: 96vh;
+    margin-top: 1%;
+    margin-bottom:28%
+    -webkit-box-shadow: 1px 3px 10px -1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 1px 3px 10px -1px rgba(0, 0, 0, 1);
+    box-shadow: 1px 3px 10px -1px rgba(0, 0, 0, 1);
+}
 </style>
- </head>
- <body>
-  <div class="wrapper">
-  <img id="iphone" src="iphone.svg" width=40%>
-  <img id="gif" src="final.gif" width=37.9%>
+</head>
+<body>
+  <div class="example-shadow-3">
+    <div class="sp"> 
+      <div class="wrapper">
+      <img id="iphone" src="iphone.svg" width=20%>
+      <img id="gif" src="final.gif" width=19%>
+    </div>
   </div>
- </body>
+</body>
 </html>
